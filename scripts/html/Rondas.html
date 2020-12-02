@@ -1,0 +1,12 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+<img src="{% static img_to_show %}">
+{% block title %}
+    You should choose
+{% endblock %}
+
+{% block content %}
+
+    {% next_button %}
+
+{% endblock %}

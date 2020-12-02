@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Please choice the point
+
+{% endblock %}
+
+{% block content %}
+
+     {% formfield  player.selection %}
+
+    {% next_button %}
+
+{% endblock %}
